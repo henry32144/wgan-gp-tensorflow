@@ -10,6 +10,14 @@ Note that this implementation is not totally the same as the paper. There might 
 
 The notebook trains WGAN-GP using aligned [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) dataset, the image resolution is adjusted to 64*64. Due to the limitation of computation resource, I train the models for only 40 epochs. It may be able to produce better images if trained for more epochs. 
 
+## Environments
+
+* Python 3
+* jupyter or jupyterlab
+* numpy
+* matplotlib
+* tensorflow 2.0
+
 ## How to Run
 
 There are two ways to run this repo.
